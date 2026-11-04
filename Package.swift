@@ -2,7 +2,7 @@
 import Foundation
 import PackageDescription
 
-let release: (url: String, checksum: String)? = nil
+let release: (url: String, checksum: String)? = (url: "https://github.com/meritt/tokenmeter.rs/releases/download/v0.1.0/tokenmeter-v0.1.0-xcframework.zip", checksum: "e0ba7b419970d5cb9f804f01a7b0909117f137221f53987b67e12dfb9c9b7e78")
 
 let local = "packages/swift/TokenMeterFFI.xcframework"
 let ffi: Target
