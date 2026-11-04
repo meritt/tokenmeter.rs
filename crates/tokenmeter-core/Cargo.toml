@@ -1,0 +1,24 @@
+[package]
+name = "tokenmeter-core"
+description = "Token counts of text in o200k_base, with the text split into token groups on grapheme boundaries"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords = ["tokenizer", "tiktoken", "bpe", "openai", "tokens"]
+categories = ["text-processing"]
+include = ["src/**/*.rs", "build.rs", "data/*", "Cargo.toml", "LICENSE"]
+
+[dependencies]
+rustc-hash.workspace = true
+tiktoken-rs.workspace = true
+unicode-segmentation.workspace = true
+
+[build-dependencies]
+base64.workspace = true
+sha2.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,4 @@
+module TokenMeterFFI {
+    header "tokenmeter.h"
+    export *
+}
